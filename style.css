@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* HEADER AND NAV ELEMENTS */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+ }
+
+   header  {
+    background-color:gray;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 30px;
+}
+
+header h1 {
+    font-size: 45px;
+
+}
+
+header nav ul {
+    font-size: 30px;
+    display: flex;
+    padding: 15px;
+    list-style-type: none;
+
+}
+a {
+    padding: 15px 25px;
+    color:black;
+}
+
+.hero {
+    margin: 0;
+    padding: 70px;
+    background-color: lightskyblue;
+}
+
+.hero h2 {
+    font-size: 40px;
+    float: right;
+    padding: 15px;
+}
+
+.first-section {
+    padding: 80px;
+    font-size: 40px;
+    margin: 1%;
+}
+
+.first-section h2 {
+    float: left;
+    border-right: 2px solid lightskyblue;
+    padding-right: 25px;
+    display: flex;
+}
+.first-section p {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+}
+.main {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.work-section p {
+    font-size: 30px;
+    padding-right: 25px;
+    /* border-right: 2px solid lightskyblue; */
+    font-style: bold;
+}
+.empty-column {
+    flex: 1;
+}
+
+.main-column {
+    flex: 2;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border-top: 4px solid lightskyblue;
+    border-bottom: 4px solid lightskyblue;
+
+}
+
+.project-child {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.work-section {
+    border-right: 2px solid lightskyblue;
+    padding-right: 30px;
+}
+.flex-row {
+    display: flex;
+}
+
+
+
+
+
+
+
+.contact {
+    display: flex;
+    margin: 2%;
+
+}
+
+.contact-me {
+    font-size: 40px;
+   display: flex;
+   flex: 1;
+}
+
+.contact-info {
+    font-size: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+}
